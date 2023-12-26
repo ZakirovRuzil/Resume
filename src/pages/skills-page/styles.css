@@ -1,0 +1,66 @@
+.container {
+    padding: 0 8.4rem;
+  }
+  
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+    row-gap: 3rem;
+    /* align-items: center; */
+  }
+  
+  .skills h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    background: #F7086C;
+    background: linear-gradient(to right, #e16498 0%, #23baec 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px 0;
+    opacity: 0;
+    animation: topSideAni 1s ease forwards;
+  }
+  
+  .skills li {
+    line-height: 1.7;
+    font-size: 1.2rem;
+    list-style:circle;
+    margin: 0 0 5px 10px;
+    opacity: 0;
+    animation: btn-ani 1s ease forwards;
+    animation-delay: 0.2s;
+  }
+  
+  
+  @keyframes rightSideAni {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes topSideAni {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes btn-ani {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

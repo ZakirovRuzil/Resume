@@ -1,0 +1,78 @@
+.container {
+    padding: 0 8.4rem;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(277px, 1fr));
+    row-gap: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .contact h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    background: #F7086C;
+    background: linear-gradient(to right, #e16498 0%, #23baec 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px 0;
+  }
+
+  .contact__form {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  textarea {
+    resize: vertical;
+    font-size: 0.97rem;
+  }
+
+  .btn {
+    background: linear-gradient(to right, #e16498 0%, #23baec 100%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: linear-gradient(to right, #b45d81 0%, #1e9ec9 100%);
+  }
+
+  .contact_info {
+    flex: 1;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
